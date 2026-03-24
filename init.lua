@@ -1,6 +1,6 @@
 minetest.register_node("classicmese:mese1", {
         description = "Transition Mese",
-        tile_images = {"classicmese_mese2.png"},
+        tiles = {"classicmese_mese2.png"}, --tile_images
         is_ground_content = true,
         groups = {cracky=1},
         sounds = default.node_sound_defaults(),
@@ -8,7 +8,7 @@ minetest.register_node("classicmese:mese1", {
 
 minetest.register_node("classicmese:mese2", {
         description = "Classic Mese",
-        tile_images = {"classicmese_mese1.png"},
+        tiles = {"classicmese_mese1.png"},
         is_ground_content = true,
         groups = {cracky=1},
         sounds = default.node_sound_defaults(),
